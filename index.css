@@ -38,6 +38,7 @@
     position: absolute;
     display: inline-flex;
     color: white;
+    top: 20%;
     left: 45px;
     font-size: 2.3vh;
     text-shadow: 2px 2px #1a0fea;
@@ -160,7 +161,7 @@
       align-items: center;
       border-radius: 5px;
       color: rgb(219, 219, 219);
-      top: 10%;
+      top: 11%;
       width: 90%; 
       left: 5%; 
     }
@@ -181,7 +182,7 @@
     .logo p {
       position: absolute;
       display: flex;
-      top: 15%;
+      top: 10%;
       left: 11vw;
     }
 
