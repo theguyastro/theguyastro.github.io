@@ -1,52 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta name="google-adsense-account" content="ca-pub-8956764626288399">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>theguyastro</title>
-</head>
-<body>
-    <header>
-                <h1>theguyastro</h1>
-        <div class="social-icons">
-            <a href="https://www.instagram.com/theguyastro.dev/" target="_blank"><img src="/images/instagram.png" alt="Instagram"></a>
-            <a href="https://www.tiktok.com/@theguyastro" target="_blank"><img src="/images/tik-tok.png" alt="TikTok"></a>
-            <a href="https://discord.gg/3p7ZEd5uN6" target="_blank"><img src="/images/discord.png" alt="Discord"></a>
-            <a href="https://github.com/theguyastro" target="_blank"><img src="/images/github.png" alt="GitHub"></a>
-            <a href="mailto:contact@theguyastro.dev" target="_blank"><img src="/images/mail.png" alt="Email"></a>
-        </div>
-    </header>
-    <section id="section-about">
-        <h2>About Me</h2>
-        <p>
-            Hi, I'm Enej. I am from Slovenia-Europe. <br>
-            I love singing and programming bugs, <br>
-            and sometimes I need to satisfy my ego by moderating some communities on Discord.
-        </p>
-    </section>
-    <section id="section-portfolio">
-        <h2>My Experiences</h2>
-        <ul>
-            <li>Developing Discord bots using node.js</li>
-            <li>Moderating some Discord communities</li>
-            <li>Making awesome Discord servers</li>
-            <li>Making some good cookies</li>
-            <li>Ptereodctyl</li>
-        </ul>
-    </section>
-    <section id="section-bots">
-        <h2>My Projects</h2>
-        <ul>
-            <li> ImageSearch Bot - <a href="https://top.gg/bot/729570880983924766">top.gg</a>, searches for Images on Unsplash!</li>
-            <li>TimeStamp Maker Bot - <a href="https://top.gg/bot/507004341878521866">top.gg</a>, generate a discord timestamp using one simple command!</li>
-            <li>Emoji Uploader Bot - <a href="https://top.gg/bot/502609072042934282">top.gg</a>Making Discord Emoji managment easier for everyone with prebuild emoji packages;</li>
-            <p>I am looking forward to find a good project which I could contribute.</p>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2023 theguyastro.dev</p>
-    </footer>
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./images/avatar.png" alt="Avatar" class="avatar"> <p>TheGuyAstro</p>
+      </div>
+      <div class="links">
+        <p><a href="#home"><button class="active"><i class="fa-solid fa-house"></i> Home</button></p></a>
+        <p><a href="#about"><button class="nav-button"><i class="fa-solid fa-user"></i> About</button></p></a>
+        <p><a href="#contact"><button class="nav-button"><i class="fa-solid fa-envelope"></i> Contact</button></p></a>
+      </div>
+      <strong id="mobile-menu-btn"><i class="fa-solid fa-bars"></i></strong>
+      <div class="social-icons">
+        <a href="https://github.com/theguyastro" target="_blank"><img src="./images/github.png" alt="GitHub"></a>
+        <a href="https://www.instagram.com/theguyastro.dev/" target="_blank"><img src="./images/instagram.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@theguyastro" target="_blank"><img src="./images/tik-tok.png" alt="TikTok"></a>
+        <a href="mailto:contact@theguyastro.dev" target="_blank"><img src="./images/mail.png" alt="Email"></a>
+    </div>
+    </nav>
+    <div class="mobile-menu" style="display: none;">
+      <p><a href="#home"><button class="mnav-active"><i class="fa-solid fa-house"></i> Home</button></p></a>
+      <p><a href="#about"><button class="mnav-button"><i class="fa-solid fa-user"></i> About</button></p></a>
+      <p><a href="#contact"><button class="mnav-button"><i class="fa-solid fa-envelope"></i> Contact</button></p></a>
+    </div>
+  </body>
 </html>
