@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/avatar.png">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c92e94923.js" crossorigin="anonymous"></script>
+    <title>Astro | Home</title>
+</head>
+<body>
+    <div class="fading">
+        <img class="fimage" src="../images/minecraft_sun.png">
+    </div>
+    <div style="overflow: hidden;" class="justify-center">
+        <div style="max-width: 90%;" class="center">
+            <div class="navbar">
+                <div class="logo-div">
+                        <img class="logo avatar" src="../images/avatar.png">
+                    <a class="christmasred logo-txt">Astro</a>
+                </div>
+                <div class="mobile-menu"><i onclick="dropdown()" class="fa-solid fa-bars menu"></i></div>
+                <div id="mobile-list" class="mobile-list" style="height: 0; padding-top: 0px; padding-bottom: 0px;">
+                    <a onclick="window.location.href ='./home' " class="navbar-option active">Home</a>
+                    <a onclick="window.location.href ='./about' " class="navbar-option">About</a>
+                    <a onclick="window.location.href ='./contact' " class="navbar-option">Contact</a>
+                </div>
+                <div id="desktop-list" class="desktop-list">
+                    <a onclick="window.location.href ='./home' " class="navbar-option active">Home</a>
+                    <a onclick="window.location.href ='./about' " class="navbar-option">About</a>
+                    <a onclick="window.location.href ='./contact' " class="navbar-option">Contact</a>
+                </div>
+            </div>
+            <script src="../js/index.js"></script>
+            <div class="footer-pading footer shadow">
+                <div style="margin-left: 15px;" class="logo-div lfooter">
+                    <img class="logo avatar" src="../images/avatar.png">
+                    <a class="logo-txt">Astro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+       
