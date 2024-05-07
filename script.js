@@ -1,7 +1,7 @@
 const body = document.querySelector("body"),
-      nav = document.querySelector("nav"),
-      modeToggle = document.querySelector(".dark-light"),
-      sidebarOpen = document.querySelector(".sidebarOpen");
+    nav = document.querySelector("nav"),
+    modeToggle = document.querySelector(".dark-light"),
+    sidebarOpen = document.querySelector(".sidebarOpen");
 
 let getMode = localStorage.getItem("mode");
 if (getMode && getMode === "dark") {
