@@ -179,7 +179,7 @@ nav .nav-bar {
     .menu {
         position: fixed;
         height: 100%;
-        width: 85%;
+        width: 320px;
         left: -100%;
         top: 0;
         padding: 20px;
