@@ -13,6 +13,7 @@
     --nav-color: #4070F4;
     --side-nav: #010718;
     --text-color: #FFF;
+    --active-color: #252525;
     --dark-mode-color: #18191A;
 }
 
@@ -26,6 +27,7 @@ body.dark {
     --nav-color: #242526;
     --side-nav: #242526;
     --text-color: #CCC;
+    --active-color: #4070F4;
     --search-bar: #242526;
 }
 
@@ -118,6 +120,14 @@ nav .nav-bar {
     color: var(--text-color);
     text-decoration: none;
     padding: 10px;
+}
+
+.nav-links li.active a {
+    color: var(--active-color);
+}
+
+.nav-links li.option a {
+    color: var(--text-color);
 }
 
 .nav-links li a::before {
@@ -240,7 +250,7 @@ nav .nav-bar {
       }
 
       .nav-bar .nav-links {
-        flex-direction: column; /* Keep flex direction as column */
+        flex-direction: column; 
     }
     
     .nav-links {
@@ -251,21 +261,25 @@ nav .nav-bar {
     }
     
     .nav-links li {
-        list-style: none; /* Remove default list styling */
+        list-style: none; 
         width: 90%;
     }
     
     .nav-links li a {
         display: block;
-        text-align: center; /* Center text horizontally */
+        text-align: center; 
         font-size: 17px;
         font-weight: 400;
         color: var(--text-color);
         text-decoration: none;
-        padding: 10px 20px; /* Add padding for spacing */
-        border: 1px solid #ccc; /* Add grey border */
-        border-radius: 5px; /* Add border-radius */
-        margin-top: 10px; /* Add margin between links */
+        padding: 10px 20px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        margin-top: 10px; 
+    }
+
+    .nav-links li.active a {
+        border: 1px solid var(--active-color); 
     }
     
     .nav-links li a:hover {
