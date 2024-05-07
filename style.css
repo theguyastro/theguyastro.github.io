@@ -217,6 +217,10 @@ nav .nav-bar {
         font-size: 20px;
     }
 
+    .logo {
+      position: absolute;
+    }
+
     .avatar {
         vertical-align: middle;
         margin-right: 5px;
@@ -225,18 +229,42 @@ nav .nav-bar {
         border-radius: 50%;
       }
 
-    .nav-bar .nav-links {
-        flex-direction: column;
-    }
+      .close {
+        position: absolute;
+        left: 85%;
+      }
 
+      .nav-bar .nav-links {
+        flex-direction: column; /* Keep flex direction as column */
+    }
+    
     .nav-links {
         position: absolute;
         display: flex;
-        top: 35px;
+        top: 80px;
+        width: 100%;
     }
-
+    
+    .nav-links li {
+        list-style: none; /* Remove default list styling */
+        width: 90%;
+    }
+    
     .nav-links li a {
         display: block;
-        margin-top: 20px;
+        text-align: center; /* Center text horizontally */
+        font-size: 17px;
+        font-weight: 400;
+        color: var(--text-color);
+        text-decoration: none;
+        padding: 10px 20px; /* Add padding for spacing */
+        border: 1px solid #ccc; /* Add grey border */
+        border-radius: 5px; /* Add border-radius */
+        margin-top: 10px; /* Add margin between links */
     }
+    
+    .nav-links li a:hover {
+        background-color: #f0f0f0;
+    }
+    
 }
