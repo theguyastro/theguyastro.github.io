@@ -13,7 +13,7 @@
     --nav-color: #4070F4;
     --side-nav: #010718;
     --text-color: #FFF;
-    --active-color: #252525;
+    --active-color: #464646;
     --dark-mode-color: #18191A;
 }
 
@@ -63,7 +63,7 @@ nav .nav-bar {
 }
 
 nav .nav-bar .sidebarOpen {
-    color: var(--text-color);
+    color: #FFF;
     font-size: 25px;
     padding: 5px;
     cursor: pointer;
@@ -73,14 +73,14 @@ nav .nav-bar .sidebarOpen {
 nav .nav-bar {
     font-size: 25px;
     font-weight: 500;
-    color: var(--text-color);
+    color: #FFF;
     text-decoration: none;
 }
 
 .logo a {
     font-size: 25px;
     font-weight: 500;
-    color: var(--text-color);
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ nav .nav-bar {
     position: relative;
     font-size: 17px;
     font-weight: 400;
-    color: var(--text-color);
+    color: #FFF;
     text-decoration: none;
     padding: 10px;
 }
@@ -128,7 +128,7 @@ nav .nav-bar {
 }
 
 .nav-links li.option a {
-    color: var(--text-color);
+    color: #FFF;
 }
 
 .nav-links li a::before {
@@ -155,7 +155,7 @@ nav .nav-bar {
 }
 
 .dark-light i {
-    color: var(--text-color);
+    color: #FFF;
     font-size: 22px; 
     cursor: pointer;
     transition: all 0.3s ease;
