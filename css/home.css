@@ -61,7 +61,7 @@ body.dark {
     border: 1px solid #555555;
     border-radius: 8px;
     position: relative; 
-    padding: 15px 10px; 
+    padding: 30px 10px; 
 }
 
 .server-avatar {
@@ -82,6 +82,12 @@ body.dark {
 @media (max-width: 790px) {
     .server {
         padding: 35px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .server {
+        padding: 35px 20px
     }
 }
 
